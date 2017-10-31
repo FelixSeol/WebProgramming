@@ -1,0 +1,47 @@
+.{
+	margin: 0;
+	padding: 0;
+}
+#show{
+	width: 32em;
+	height: 2em;
+	margin: 0.5em;
+	padding-top:1em;
+	font-size: 2em;
+	color: #999999;
+	text-align: bottom;
+	overflow:hidden;
+	box-sizing: border-box;
+}
+
+button {
+	width: 2em;
+	height: 2em;
+	margin: 0.25em;
+	cursor: pointer;
+	border: 0;
+	background: rgba(40,50,110, .15);
+	color: #909090;  
+	float: left;
+	font-size: 2em;
+	text-align: center;
+}
+
+button:hover{
+	background: rgba(60,50,120, .30);
+	color: #808080;  
+}
+
+.function {
+	background: rgba(50,60,120, .45);
+	color: #707070;  
+}
+
+.operator {
+	background: rgba(60,50,130, .35);
+	color: #707070;  
+}
+
+#calculator {
+	width: 24em;
+}
