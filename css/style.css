@@ -14,7 +14,7 @@
 	box-sizing: border-box;
 }
 
-button {
+input {
 	width: 2em;
 	height: 2em;
 	margin: 0.25em;
@@ -27,7 +27,7 @@ button {
 	text-align: center;
 }
 
-button:hover{
+input:hover{
 	background: rgba(60,50,120, .30);
 	color: #808080;  
 }
